@@ -1,0 +1,34 @@
+.navbar{
+  background-color: #181818;
+}
+
+.navbar ul{
+  height: 65px;
+  display: flex;
+  justify-content:end; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.navbar ul li{
+  margin: 20px;
+}
+
+.navbar p{
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.navbar .navbarmenu:hover,
+.navbar .navbarmenu.active {
+  background-color: #08fdd8;
+}
+
+.navbar .navbarmenu:hover p,
+.navbar .navbarmenu.active p {
+  color: black;
+}

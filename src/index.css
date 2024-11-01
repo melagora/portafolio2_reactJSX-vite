@@ -1,0 +1,21 @@
+:root {
+  font-family: cursive;  padding: 0px;
+  margin: 0px;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-image: url('/src/assets/backgroundBlack.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: inherit;
+}
