@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "../styles/styles.css";
 import perfilImg from "../assets/perfil.jpg";
+import GithubLogo2 from "../assets/githubLogo2.svg";
+import LinkedinLOGO from "../assets/linkedinLogo.svg";
 
 function Home() {
   const [shadow, setShadow] = useState("10px 5px 5px #08fdd8");
@@ -30,19 +32,41 @@ function Home() {
     <section className="general_section">
       <div className="content">
         <div className="content1">
-          <div
-            className="container1_img"
-            style={{ boxShadow: shadow }}
-          >
+          <div className="container1_img" style={{ boxShadow: shadow }}>
             <img src={perfilImg} alt="Perfil" />
+          </div>
+          <div className="container1_redes">
+            <p>Contacto:</p>
+            <a
+              href="https://www.linkedin.com/in/melagora"
+              target="_blank"
+            >
+              <div className="container1_img_redes">
+                <img src={LinkedinLOGO} alt="Perfil" />
+              </div>
+            </a>
+
+            <a href="https://github.com/melagora" target="_blank">
+              <div className="container1_img_redes container1_img_redes2">
+                <img src={GithubLogo2} alt="Perfil" />
+              </div>
+            </a>
           </div>
         </div>
         <div className="content2">
           <div className="container2_text">
-            <p className="container2_text1">¡Hola!</p>
-            <p className="container2_text2">Te saluda Melvin González</p>
-            <p className="container2_text3">Desarrollador - Web JR -</p>
-            <p className="container2_text4">/ Front-end developer React & JavaScript / Web Developer /</p>
+            <div className="container2_text1">
+              <p>¡Hola!</p>
+            </div>
+            <div className="container2_text2">
+              <p>Te saluda Melvin González</p>
+            </div>
+            <div className="container2_text3">
+              <p>Desarrollador - Web JR -</p>
+            </div>
+            <div className="container2_text4">
+              <p>| Front-end developer React & JavaScript | Web Developer |</p>
+            </div>
           </div>
         </div>
       </div>
