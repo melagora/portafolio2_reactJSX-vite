@@ -128,19 +128,19 @@
 }
 
 .container2_text2 {
-  font-size: 34px;
+  font-size: 33.5px;
   margin-left: 15px;
 }
 
 .container2_text3 {
-  font-size: 36.5px;
+  font-size: 36px;
   margin-left: 15px;
 }
 
 .container2_text4 {
   font-family: monospace;
   margin-top: 10px;
-  font-size: 12.3px;
+  font-size: 12px;
   font-weight: 900;
   text-decoration: overline;
   margin-left: 15px;
@@ -380,9 +380,10 @@
 /* FON ROUTE CONTACT*/
 
 @media only screen and (max-width: 950px) {
-  /*INICIO ROUTES*/
+  /* @media INICIO ROUTES */
+
   .general_section {
-    height: 100vh; /* Se ajusta al contenido */
+    height: auto; /* Se ajusta al contenido */
   }
 
   .content {
@@ -390,7 +391,7 @@
     flex-direction: column;
   }
 
-  .content1{
+  .content1 {
     padding-top: 30px;
   }
 
@@ -407,7 +408,7 @@
     background-color: #4e4e4e;
   }
 
-  .content2{
+  .content2 {
     margin: 0px;
     padding: 0px;
   }
