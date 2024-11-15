@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "@/styles/styles.css";
 import perfilImg from "@/assets/perfil.jpg";
-import GithubLogo2 from "@/assets/githubLogo2.svg";
-import LinkedinLOGO from "@/assets/linkedinLogo.svg";
+import githubLOGO2 from "@/assets/github_LOGO2.svg";
+import linkedinLOGO from "@/assets/linkedin_LOGO.svg";
 
 function Home() {
   const [shadow, setShadow] = useState("10px 5px 5px #08fdd8");
@@ -42,13 +42,13 @@ function Home() {
               target="_blank"
             >
               <div className="container1_img_redes">
-                <img src={LinkedinLOGO} alt="Perfil" />
+                <img src={linkedinLOGO} alt="Perfil" />
               </div>
             </a>
 
             <a href="https://github.com/melagora" target="_blank">
               <div className="container1_img_redes container1_img_redes2">
-                <img src={GithubLogo2} alt="Perfil" />
+                <img src={githubLOGO2} alt="Perfil" />
               </div>
             </a>
           </div>
