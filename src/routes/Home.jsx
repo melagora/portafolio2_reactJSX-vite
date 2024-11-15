@@ -37,10 +37,7 @@ function Home() {
           </div>
           <div className="container1_redes">
             <p>Contacto:</p>
-            <a
-              href="https://www.linkedin.com/in/melagora"
-              target="_blank"
-            >
+            <a href="https://www.linkedin.com/in/melagora" target="_blank">
               <div className="container1_img_redes">
                 <img src={linkedinLOGO} alt="Perfil" />
               </div>
@@ -59,7 +56,9 @@ function Home() {
               <p>¡Hola!</p>
             </div>
             <div className="container2_text2">
-              <p>Te saluda Melvin González</p>
+              <p>
+                Te saluda <mark>Melvin González</mark>
+              </p>
             </div>
             <div className="container2_text3">
               <p>Desarrollador - Web JR -</p>

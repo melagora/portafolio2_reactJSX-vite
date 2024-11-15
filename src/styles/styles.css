@@ -37,12 +37,12 @@
   /* background-color: #08fdd8; */
 }
 
-.content1{
-  align-items:flex-end;
+.content1 {
+  align-items: flex-end;
   width: 50%;
 }
 
-.content2{
+.content2 {
   width: 75%;
 }
 
@@ -71,7 +71,7 @@
   object-fit: cover; /* La imagen cubre todo el contenedor sin distorsionarse */
 }
 
-.container1_redes{
+.container1_redes {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -79,14 +79,14 @@
   width: 250px;
 }
 
-.container1_redes div{
+.container1_redes div {
   display: flex;
   align-items: center;
   width: 50px;
   height: 50px;
 }
 
-.container1_redes div:hover{
+.container1_redes div:hover {
   background-color: #363636;
   box-shadow: 0px 0px 5px 5px #00947e;
 }
@@ -97,12 +97,12 @@
   object-fit: cover; /* La imagen cubre todo el contenedor sin distorsionarse */
 }
 
-.container1_img_redes2 img{
+.container1_img_redes2 img {
   width: 50px;
   height: 50px;
 }
 
-.container1_redes p{
+.container1_redes p {
   display: flex;
   align-items: center;
 }
@@ -117,10 +117,10 @@
   overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del contenedor */
 }
 
-.container2_text  p {
+.container2_text p {
   margin: 0;
   padding: 0;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
 .container2_text1 {
@@ -128,25 +128,27 @@
 }
 
 .container2_text2 {
-  font-size: 33px;
+  font-size: 34px;
+  margin-left: 15px;
 }
 
 .container2_text3 {
-  font-size: 34px;
+  font-size: 36.5px;
+  margin-left: 15px;
 }
 
 .container2_text4 {
   font-family: monospace;
   margin-top: 10px;
-  font-size: 12.7px;
+  font-size: 12.3px;
   font-weight: 900;
-  text-decoration:overline;
+  text-decoration: overline;
+  margin-left: 15px;
 }
 
 /* FIN ROUTE HOME */
 
 /* INICIO ROUTE ABOUTME */
-
 
 .content_aboutme {
   display: flex;
@@ -166,7 +168,7 @@
   /* background-color: #08fdd8; */
 }
 
-.content1_aboutme{
+.content1_aboutme {
   padding-left: 50px;
   width: 50%;
 }
@@ -179,13 +181,13 @@
   text-align: center;
 } */
 
-.content2_aboutme{
+.content2_aboutme {
   width: 50%;
   justify-content: center;
   align-items: center;
 }
 
-.content2_aboutme_img img{
+.content2_aboutme_img img {
   width: 350px;
 }
 
@@ -195,13 +197,12 @@
 
 @keyframes slide-down {
   0% {
-      transform: translateY(0px);
+    transform: translateY(0px);
   }
   100% {
-      transform: translateY(25px);
+    transform: translateY(25px);
   }
 }
-
 
 /* FIN ROUTE ABOUTME */
 
@@ -228,13 +229,15 @@
   /* background-color: #08fdd8; */
 }
 
-.contentSkillsBasicPlus, .contentSkillsBasic{
+.contentSkillsBasicPlus,
+.contentSkillsBasic {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.contentSkillsBasicPlus div, .contentSkillsBasic div{
+.contentSkillsBasicPlus div,
+.contentSkillsBasic div {
   margin: 5px;
   padding: 10px;
   border-radius: 20px;
@@ -244,7 +247,8 @@
   background-color: #00947e;
 }
 
-.contentSkillsBasicPlus div:hover, .contentSkillsBasic div:hover{
+.contentSkillsBasicPlus div:hover,
+.contentSkillsBasic div:hover {
   scale: 1.05;
   box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
 }
@@ -253,10 +257,10 @@
 
 .contentEducation {
   display: flex;
-  height: 82vh; 
+  height: 82vh;
 }
 
-.contentEducation1{
+.contentEducation1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -265,11 +269,12 @@
   height: 82vh;
 }
 
-.contentEducation1 div{
+.contentEducation1 div {
   margin: 20px;
 }
 
-.contentEducation1 div, .contentEducation2 div{
+.contentEducation1 div,
+.contentEducation2 div {
   background-color: #00947e;
   width: 375px;
   min-height: 75px;
@@ -281,25 +286,29 @@
   text-align: center;
 }
 
-.contentEducation1 div:hover, .contentEducation2 div:hover{
- background-color: #363636;
- scale: 1.02;
+.contentEducation1 div:hover,
+.contentEducation2 div:hover {
+  background-color: #363636;
+  scale: 1.02;
 }
 
-.contentEducation1 div h2, .contentEducation2 div h2{
+.contentEducation1 div h2,
+.contentEducation2 div h2 {
   font-size: 15px;
 }
 
-.contentEducation1 div h5, .contentEducation2 div h5{
+.contentEducation1 div h5,
+.contentEducation2 div h5 {
   font-size: 13px;
   font-style: italic;
 }
 
-.contentEducation1 div p, .contentEducation2 div p{
+.contentEducation1 div p,
+.contentEducation2 div p {
   font-size: 13px;
 }
 
-.contentEducation2{
+.contentEducation2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -336,12 +345,12 @@
 /* FIN ROUTE EDUCATION */
 
 /* INICIO ROUTE PROJECTS*/
-.contentProjects{
+.contentProjects {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 82vh; 
+  height: 82vh;
   background-color: #ff0000;
 }
 
@@ -353,14 +362,13 @@
 /* FIN ROUTE PROJECTS*/
 
 /* INICIO ROUTE CONTACT*/
-.contentContact{
+.contentContact {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 82vh; 
+  height: 82vh;
   background-color: #ff0000;
-
 }
 
 .contentContact a {
@@ -370,3 +378,90 @@
 }
 
 /* FON ROUTE CONTACT*/
+
+@media only screen and (max-width: 950px) {
+  /*INICIO ROUTES*/
+  .general_section {
+    height: 100vh; /* Se ajusta al contenido */
+  }
+
+  .content {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .content1{
+    padding-top: 30px;
+  }
+
+  .content1,
+  .content2 {
+    height: auto;
+    align-items: center;
+  }
+
+  .content1 .container1_img {
+    width: 200px;
+    height: 275px;
+    border-radius: 80px;
+    background-color: #4e4e4e;
+  }
+
+  .content2{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /* ABOUT ME ROUTE*/
+
+  .content_aboutme {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content1_aboutme {
+    padding: 30px 0px 0px 0px;
+    width: 85%;
+  }
+
+  /* ABOUT ME SKILLS*/
+
+  .contentSkills {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contentSkillsUno,
+  .contentSkillsDos {
+    width: 85%;
+  }
+
+  /* EDUCATION ROUTE*/
+
+  .contentEducation {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+  }
+
+  .contentEducation1 {
+    height: auto;
+    padding-top: 30px;
+  }
+
+  .contentEducation1,
+  .contentEducation2 {
+    width: 90%;
+    justify-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .contentEducation2 {
+    height: auto;
+    margin: 0px;
+    padding-bottom: 30px;
+  }
+}
