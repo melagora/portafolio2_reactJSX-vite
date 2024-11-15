@@ -16,7 +16,7 @@ export default function Skills() {
       <div className="contentSkills">
         <div className="contentSkillsUno">
           <div>
-            <p>Tecnologías de conocimiento básico - intermedio</p>
+            <p><mark>Tecnologías de conocimiento básico - intermedio</mark></p>
           </div>
           <div className="contentSkillsBasicPlus">
             {skillsBasicPlus.map((skill, index) => (
@@ -28,9 +28,9 @@ export default function Skills() {
         </div>
         <div className="contentSkillsDos">
           <div>
-            <p>
+            <p><mark>
               Tecnologías de conocimiento básico o que he probado alguna vez
-            </p>
+              </mark></p>
           </div>
           <div className="contentSkillsBasic">
             {skillsBasic.map((skill, index) => (

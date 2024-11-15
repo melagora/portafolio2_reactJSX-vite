@@ -23,7 +23,7 @@
 
 .content {
   display: flex;
-  height: 80vh; /* O la altura deseada para que ocupe toda la pantalla */
+  height: 82vh; /* O la altura deseada para que ocupe toda la pantalla */
 }
 
 .content1,
@@ -31,7 +31,6 @@
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,9 +38,13 @@
 }
 
 .content1{
-  align-items:center;
+  align-items:flex-end;
+  width: 50%;
 }
 
+.content2{
+  width: 75%;
+}
 
 .content1 .container1_img {
   width: 250px;
@@ -147,7 +150,7 @@
 
 .content_aboutme {
   display: flex;
-  height: 80vh; /* O la altura deseada para que ocupe toda la pantalla */
+  height: 82vh; /* O la altura deseada para que ocupe toda la pantalla */
 }
 
 .content1_aboutme,
@@ -206,7 +209,7 @@
 
 .contentSkills {
   display: flex;
-  height: 80vh; /* O la altura deseada para que ocupe toda la pantalla */
+  height: 82vh; /* O la altura deseada para que ocupe toda la pantalla */
 }
 
 .contentSkillsUno,
@@ -245,3 +248,125 @@
   scale: 1.05;
   box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
 }
+
+/* INICIO ROUTE EDUCATION */
+
+.contentEducation {
+  display: flex;
+  height: 82vh; 
+}
+
+.contentEducation1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 82vh;
+}
+
+.contentEducation1 div{
+  margin: 20px;
+}
+
+.contentEducation1 div, .contentEducation2 div{
+  background-color: #00947e;
+  width: 375px;
+  min-height: 75px;
+  border: 5px solid;
+  border-radius: 20px;
+  align-content: center;
+  justify-items: center;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.contentEducation1 div:hover, .contentEducation2 div:hover{
+ background-color: #363636;
+ scale: 1.02;
+}
+
+.contentEducation1 div h2, .contentEducation2 div h2{
+  font-size: 15px;
+}
+
+.contentEducation1 div h5, .contentEducation2 div h5{
+  font-size: 13px;
+  font-style: italic;
+}
+
+.contentEducation1 div p, .contentEducation2 div p{
+  font-size: 13px;
+}
+
+.contentEducation2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  gap: 10px;
+  width: 50%;
+  height: 75vh;
+  overflow-y: auto;
+}
+
+/* Ancho de la barra de desplazamiento */
+.contentEducation2::-webkit-scrollbar {
+  width: 15px; /* Cambia el ancho según lo necesites */
+}
+
+/* Color de la pista (fondo de la barra) */
+.contentEducation2::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color del fondo */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Color y estilo de la barra de desplazamiento */
+.contentEducation2::-webkit-scrollbar-thumb {
+  background-color: #00947e; /* Color de la barra */
+  border-radius: 10px; /* Bordes redondeados */
+  border: 2px solid #f1f1f1; /* Espacio alrededor de la barra */
+}
+
+/* Color de la barra al hacer hover */
+.contentEducation2::-webkit-scrollbar-thumb:hover {
+  background-color: #08fdd8; /* Cambia el color cuando el mouse pasa sobre la barra */
+}
+
+/* FIN ROUTE EDUCATION */
+
+/* INICIO ROUTE PROJECTS*/
+.contentProjects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 82vh; 
+  background-color: #ff0000;
+}
+
+.contentProjects a {
+  color: black;
+  text-decoration: underline;
+  font-size: 20px;
+}
+/* FIN ROUTE PROJECTS*/
+
+/* INICIO ROUTE CONTACT*/
+.contentContact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 82vh; 
+  background-color: #ff0000;
+
+}
+
+.contentContact a {
+  color: black;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+/* FON ROUTE CONTACT*/
