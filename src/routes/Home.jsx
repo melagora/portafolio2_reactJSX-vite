@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import "../styles/styles.css";
-import perfilImg from "../assets/perfil.jpg";
-import GithubLogo2 from "../assets/githubLogo2.svg";
-import LinkedinLOGO from "../assets/linkedinLogo.svg";
+import "@/styles/styles.css";
+import perfilImg from "@/assets/perfil.jpg";
+import GithubLogo2 from "@/assets/githubLogo2.svg";
+import LinkedinLOGO from "@/assets/linkedinLogo.svg";
 
 function Home() {
   const [shadow, setShadow] = useState("10px 5px 5px #08fdd8");

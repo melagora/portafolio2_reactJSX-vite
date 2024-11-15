@@ -5,7 +5,7 @@ import Skills from "./Skills.jsx";
 import Education from "./Education.jsx";
 import Projects from "./Projects.jsx";
 import Contact from "./Contact.jsx";
-import "../styles/Menu.css";
+import "@/styles/Menu.css";
 
 function Menu() {
   return (

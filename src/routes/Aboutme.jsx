@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import developer from "../assets/programming-amico.svg";
+import developer from "@/assets/programming-amico.svg";
 
-import "../styles/styles.css";
+import "@/styles/styles.css";
 
 export default function Aboutme() {
   return (
