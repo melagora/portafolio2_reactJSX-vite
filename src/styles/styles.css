@@ -138,12 +138,12 @@
 }
 
 .container2_text4 {
+  text-align: center;
   font-family: monospace;
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 900;
   text-decoration: overline;
-  margin-left: 15px;
 }
 
 /* FIN ROUTE HOME */
@@ -444,7 +444,7 @@
     align-items: center;
     margin: 0px;
     padding: 0px;
-    height: auto;
+    height: 82vh;
   }
 
   .contentEducation1 {

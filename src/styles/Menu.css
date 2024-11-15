@@ -38,4 +38,8 @@
   .navbar{
     justify-items: center;
   }
+
+  .navbar p{
+    font-size: 12px;
+  }
 }
