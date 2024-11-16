@@ -1,20 +1,37 @@
+nav {
+  position: fixed; /* Fija el elemento al viewport */
+  top: 0; /* Lo posiciona en la parte superior */
+  left: 0; /* Lo alinea al borde izquierdo */
+  width: 100%; /* Ocupa todo el ancho de la pantalla */
+  background-color: #fff; /* Color de fondo para que sea visible */
+  z-index: 1000; /* Asegura que el nav esté por encima de otros elementos */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Opcional: sombra para separación */
+
+}
+
 .navbar{
   background-color: #181818;
+  text-align: center;
+}
+
+.navbar div{
+  width: 90px;
 }
 
 .navbar ul{
-  height: 65px;
+  height: 120px; /*a modificar query*/
   display: flex;
-  justify-content:end; /* Centra horizontalmente */
+  justify-content: space-around;
   align-items: center; /* Centra verticalmente */
   list-style: none;
   padding: 0;
   margin: 0;
   color: white;
+  flex-wrap: wrap;
 }
 
 .navbar ul li{
-  margin: 20px;
+  margin: 20px 5px 20px 5px;
 }
 
 .navbar p{
@@ -33,13 +50,27 @@
   color: black;
 }
 
-@media only screen and (max-width: 950px) {
+/* adaptación para dispositivos de pantallas súper pequeñas (casi obsoletos) */
+@media only screen and (min-width: 320px) {
 
-  .navbar{
-    justify-items: center;
-  }
+}
 
-  .navbar p{
-    font-size: 12px;
-  }
+/* adaptación para dispositivos de pantallas de la mayoria de telefonos Celulares */
+@media only screen and (min-width: 400px) {
+
+}
+
+/* adaptación para dispositivos de pantallas de algunos celulares de mayor pixelaje y tablets*/
+@media only screen and (min-width: 600px) {
+
+}
+
+/* adaptación para dispositivos de pantallas en tables y algunas laptops*/
+@media only screen and (min-width: 992px) {
+
+}
+
+/* adaptación para dispositivos de pantallas en laptos y pantallas de mayor pixelaje*/
+@media only screen and (min-width: 1200px) {
+
 }

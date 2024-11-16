@@ -1,7 +1,7 @@
 .general_section {
+  height: 800px; /*a modificar en query*/
   background-color: rgba(0, 0, 0, 0.508);
   border-radius: 10px;
-  height: 82vh;
   margin: 20px;
   border: solid 3px; /* Ajuste al grosor de la animación */
   animation: borderAnimation 5s infinite; /* Llama a la animación */
@@ -23,27 +23,28 @@
 
 .content {
   display: flex;
-  height: 82vh; /* O la altura deseada para que ocupe toda la pantalla */
+  flex-direction: column;
 }
 
 .content1,
 .content2 {
-  margin: 10px;
-  padding: 10px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
+  text-align: center;
   /* background-color: #08fdd8; */
 }
 
 .content1 {
-  align-items: flex-end;
-  width: 50%;
+  padding-top: 30px;
+  /* align-items: flex-end; */
+  /* width: 50%; */
 }
 
 .content2 {
-  width: 75%;
+  /* width: 75%; */
 }
 
 .content1 .container1_img {
@@ -79,11 +80,13 @@
   width: 250px;
 }
 
+
 .container1_redes div {
   display: flex;
   align-items: center;
   width: 50px;
   height: 50px;
+  margin-top: 30px;
 }
 
 .container1_redes div:hover {
@@ -124,17 +127,15 @@
 }
 
 .container2_text1 {
-  font-size: 160px;
+  font-size: 120px;
 }
 
 .container2_text2 {
-  font-size: 33.5px;
-  margin-left: 15px;
+  font-size: 25px;
 }
 
 .container2_text3 {
-  font-size: 36px;
-  margin-left: 15px;
+  font-size: 27px;
 }
 
 .container2_text4 {
@@ -152,43 +153,27 @@
 
 .content_aboutme {
   display: flex;
-  height: 82vh; /* O la altura deseada para que ocupe toda la pantalla */
-}
-
-.content1_aboutme,
-.content2_aboutme {
-  margin: 10px;
-  padding: 10px;
-  border-radius: 10px;
-  width: 100%;
-  display: flex;
   flex-direction: column;
-  gap: 20px;
-  justify-content: center;
-  /* background-color: #08fdd8; */
 }
 
-.content1_aboutme {
-  padding-left: 50px;
-  width: 50%;
+.content1_aboutme p {
+  /* background-color: #08fdd8; */
+  margin: 30px;
 }
 
 .content1_aboutme p {
   text-align: justify;
 }
 
-/* .content1_aboutme p:first-child{
-  text-align: center;
-} */
-
 .content2_aboutme {
-  width: 50%;
-  justify-content: center;
+  width: 100%;
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .content2_aboutme_img img {
-  width: 350px;
+  width: 175px;
 }
 
 .animate-down {
@@ -210,22 +195,21 @@
 
 .contentSkills {
   display: flex;
-  height: 82vh; /* O la altura deseada para que ocupe toda la pantalla */
+  flex-direction: column;
+  align-items: center;
 }
 
 .contentSkillsUno,
 .contentSkillsDos {
-  margin: 10px;
-  padding: 10px;
-  border-radius: 10px;
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  height: 300px;
   align-items: center;
   text-align: center;
-  padding-top: 10%;
-  width: 50%;
+  margin: 20px;
+  padding: 20px;
   /* background-color: #08fdd8; */
 }
 
@@ -257,7 +241,8 @@
 
 .contentEducation {
   display: flex;
-  height: 82vh;
+  flex-direction: column;
+  margin: 20px;
 }
 
 .contentEducation1 {
@@ -265,18 +250,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 82vh;
 }
 
 .contentEducation1 div {
-  margin: 20px;
+  margin: 15px;
 }
 
 .contentEducation1 div,
 .contentEducation2 div {
   background-color: #00947e;
-  width: 375px;
+  width: 300px;
   min-height: 75px;
   border: 5px solid;
   border-radius: 20px;
@@ -312,11 +295,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px;
-  gap: 10px;
-  width: 50%;
-  height: 75vh;
-  overflow-y: auto;
+  gap: 15px;
+  /* overflow-y: auto; */
 }
 
 /* Ancho de la barra de desplazamiento */
@@ -346,11 +326,12 @@
 
 /* INICIO ROUTE PROJECTS*/
 .contentProjects {
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 82vh;
+  height: 100%;
   background-color: #ff0000;
 }
 
@@ -363,11 +344,12 @@
 
 /* INICIO ROUTE CONTACT*/
 .contentContact {
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 82vh;
+  height: 100%;
   background-color: #ff0000;
 }
 
@@ -378,91 +360,3 @@
 }
 
 /* FON ROUTE CONTACT*/
-
-@media only screen and (max-width: 950px) {
-  /* @media INICIO ROUTES */
-
-  .general_section {
-    height: auto; /* Se ajusta al contenido */
-  }
-
-  .content {
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .content1 {
-    padding-top: 30px;
-  }
-
-  .content1,
-  .content2 {
-    height: auto;
-    align-items: center;
-  }
-
-  .content1 .container1_img {
-    width: 200px;
-    height: 275px;
-    border-radius: 80px;
-    background-color: #4e4e4e;
-  }
-
-  .content2 {
-    margin: 0px;
-    padding: 0px;
-  }
-
-  /* ABOUT ME ROUTE*/
-
-  .content_aboutme {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .content1_aboutme {
-    padding: 30px 0px 0px 0px;
-    width: 85%;
-  }
-
-  /* ABOUT ME SKILLS*/
-
-  .contentSkills {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .contentSkillsUno,
-  .contentSkillsDos {
-    width: 85%;
-  }
-
-  /* EDUCATION ROUTE*/
-
-  .contentEducation {
-    flex-direction: column;
-    align-items: center;
-    margin: 0px;
-    padding: 0px;
-    height: 82vh;
-  }
-
-  .contentEducation1 {
-    height: auto;
-    padding-top: 30px;
-  }
-
-  .contentEducation1,
-  .contentEducation2 {
-    width: 90%;
-    justify-items: flex-start;
-    justify-content: flex-start;
-    align-items: center;
-  }
-
-  .contentEducation2 {
-    height: auto;
-    margin: 0px;
-    padding-bottom: 30px;
-  }
-}

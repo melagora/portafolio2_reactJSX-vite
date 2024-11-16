@@ -29,42 +29,46 @@ function Home() {
   }, []);
 
   return (
-    <section className="general_section">
-      <div className="content">
-        <div className="content1">
-          <div className="container1_img" style={{ boxShadow: shadow }}>
-            <img src={perfilImg} alt="Perfil" />
-          </div>
-          <div className="container1_redes">
-            <p>Contacto:</p>
-            <a href="https://www.linkedin.com/in/melagora" target="_blank">
-              <div className="container1_img_redes">
-                <img src={linkedinLOGO} alt="Perfil" />
-              </div>
-            </a>
+    <section>
+      <div className="general_section">
+        <div className="content">
+          <div className="content1">
+            <div className="container1_img" style={{ boxShadow: shadow }}>
+              <img src={perfilImg} alt="Imagen de perfil Melvin González" />
+            </div>
+            <div className="container1_redes">
+              <p>Contacto:</p>
+              <a href="https://www.linkedin.com/in/melagora" target="_blank">
+                <div className="container1_img_redes">
+                  <img src={linkedinLOGO} alt="Logo Linkedln" />
+                </div>
+              </a>
 
-            <a href="https://github.com/melagora" target="_blank">
-              <div className="container1_img_redes container1_img_redes2">
-                <img src={githubLOGO2} alt="Perfil" />
-              </div>
-            </a>
+              <a href="https://github.com/melagora" target="_blank">
+                <div className="container1_img_redes container1_img_redes2">
+                  <img src={githubLOGO2} alt="Logo Github" />
+                </div>
+              </a>
+            </div>
           </div>
-        </div>
-        <div className="content2">
-          <div className="container2_text">
-            <div className="container2_text1">
-              <p>¡Hola!</p>
-            </div>
-            <div className="container2_text2">
-              <p>
-                Te saluda <mark>Melvin González</mark>
-              </p>
-            </div>
-            <div className="container2_text3">
-              <p>Desarrollador - Web JR -</p>
-            </div>
-            <div className="container2_text4">
-              <p>| Front-end developer React & JavaScript | Web Developer |</p>
+          <div className="content2">
+            <div className="container2_text">
+              <div className="container2_text1">
+                <p>¡Hola!</p>
+              </div>
+              <div className="container2_text2">
+                <p>
+                  Te saluda <mark>Melvin González</mark>
+                </p>
+              </div>
+              <div className="container2_text3">
+                <p>Desarrollador - Web JR -</p>
+              </div>
+              <div className="container2_text4">
+                <p>
+                  | Front-end developer React & JavaScript | Web Developer |
+                </p>
+              </div>
             </div>
           </div>
         </div>

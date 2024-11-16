@@ -1,14 +1,14 @@
 :root {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  padding: 0px;
   margin: 0px;
-
+  margin-top: 120px;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-image: url('/src/assets/backgroundBlack.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 860px; /*a modificar en query*/
 }
 
 *{

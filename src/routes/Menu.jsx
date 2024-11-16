@@ -1,4 +1,5 @@
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import ScrollToTop from "@/components/ScrollToTop.jsx"; // Ajusta la ruta según tu estructura
 import Home from "./Home.jsx";
 import Aboutme from "./Aboutme.jsx";
 import Skills from "./Skills.jsx";
@@ -10,6 +11,7 @@ import "@/styles/Menu.css";
 function Menu() {
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <nav>
         <section className="navbar">
           <ul>
