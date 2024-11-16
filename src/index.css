@@ -40,7 +40,9 @@ a{
 
 /* adaptación para dispositivos de pantallas en tables y algunas laptops*/
 @media only screen and (min-width: 992px) {
-
+  :root {
+    height: 82vh; /*a modificar en query*/
+  }
 }
 
 /* adaptación para dispositivos de pantallas en laptos y pantallas de mayor pixelaje*/

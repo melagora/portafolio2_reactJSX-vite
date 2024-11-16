@@ -51,23 +51,26 @@ nav {
 
 /* adaptación para dispositivos de pantallas súper pequeñas (casi obsoletos) */
 @media only screen and (min-width: 320px) {
-  *{
-    background-color: #08fdd8;
-  }
 }
 
 /* adaptación para dispositivos de pantallas de la mayoria de telefonos Celulares */
 @media only screen and (min-width: 400px) {
-  *{
-    background-color: red;
-  }
 }
 
 /* adaptación para dispositivos de pantallas de algunos celulares de mayor pixelaje y tablets*/
-@media only screen and (min-width: 600px) {
-  *{
-    background-color: blue;
+@media only screen and (min-width: 530px) {
+
+  .navbar div{
+    width: 120px;
   }
+
+  .navbar ul{
+    height: 120px; /*a modificar query*/
+  }
+  
+}
+
+@media only screen and (min-width: 600px) {
 
   .navbar div{
     width: 90px;
@@ -79,15 +82,18 @@ nav {
   
 }
 
+
 /* adaptación para dispositivos de pantallas en tables y algunas laptops*/
 @media only screen and (min-width: 992px) {
-  *{
-    background-color: green;
+
+  .navbar div{
+    width: 100px;
+  }
+
+  .navbar ul{
+    justify-content:end;
   }
 }
 /* adaptación para dispositivos de pantallas en laptos y pantallas de mayor pixelaje*/
 @media only screen and (min-width: 1200px) {
-  *{
-    background-color: yellow;
-  }
 }

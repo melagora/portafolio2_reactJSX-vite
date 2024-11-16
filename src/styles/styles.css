@@ -368,6 +368,10 @@
   .content2 {
     margin-top: 30px;
   }
+
+  .content2_aboutme_img img {
+    width: 135px;
+  }
 }
 
 /* adaptación para dispositivos de pantallas de la mayoria de telefonos Celulares */
@@ -387,15 +391,16 @@
   .contentSkillsUno,
   .contentSkillsDos {
     width: 90%;
+    height: 325px;
   }
 
   .contentSkillsUno {
-    padding-top: 50px;
+    padding-top: 0px;
   }
 }
 
 /* adaptación para dispositivos de pantallas de algunos celulares de mayor pixelaje y tablets*/
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 530px) {
   .content2 {
     margin-top: 10px;
   }
@@ -422,13 +427,132 @@
   }
 
   .contentEducation1 div,
-.contentEducation2 div {
-  width: 350px;
-}
+  .contentEducation2 div {
+    width: 350px;
+  }
 }
 
 /* adaptación para dispositivos de pantallas en tables y algunas laptops*/
 @media only screen and (min-width: 992px) {
+  .general_section {
+    height: 82vh; /*a modificar en query*/
+  }
+
+  .content {
+    flex-direction: row;
+  }
+
+  .content1,
+  .content2 {
+    flex-direction: column;
+  }
+
+  .content1 {
+    justify-content: center;
+    padding-top: 50px;
+    align-items: flex-end;
+    width: 50%;
+  }
+
+  .container1_redes {
+    margin-top: 10px;
+  }
+
+  .content2 {
+    width: 75%;
+  }
+
+  .container2_text1 {
+    font-size: 160px;
+  }
+
+  .container2_text2 {
+    font-size: 33.5px;
+  }
+
+  .container2_text3 {
+    font-size: 35.5px;
+  }
+
+  .container2_text4 {
+    font-size: 17px;
+  }
+
+  .content_aboutme {
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+  }
+
+  .content1_aboutme p {
+    /* background-color: #08fdd8; */
+    margin: 40px;
+  }
+
+  .content2_aboutme {
+    width: 100%;
+  }
+
+  .content2_aboutme_img img {
+    width: 375px;
+  }
+
+  .contentSkillsUno {
+    padding-top: 20px;
+  }
+
+  .contentSkillsUno,
+  .contentSkillsDos {
+    width: 80%;
+    height: 200px;
+    margin: 20px;
+  }
+
+  .contentEducation {
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .contentEducation1 {
+    width: 50%;
+  }
+  
+  
+  .contentEducation2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    overflow-y: auto;
+    width: 400px;
+    height: 76vh;
+  }
+  
+  /* Ancho de la barra de desplazamiento */
+  .contentEducation2::-webkit-scrollbar {
+    width: 15px; /* Cambia el ancho según lo necesites */
+  }
+  
+  /* Color de la pista (fondo de la barra) */
+  .contentEducation2::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color del fondo */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+  
+  /* Color y estilo de la barra de desplazamiento */
+  .contentEducation2::-webkit-scrollbar-thumb {
+    background-color: #00947e; /* Color de la barra */
+    border-radius: 10px; /* Bordes redondeados */
+    border: 2px solid #f1f1f1; /* Espacio alrededor de la barra */
+  }
+  
+  /* Color de la barra al hacer hover */
+  .contentEducation2::-webkit-scrollbar-thumb:hover {
+    background-color: #08fdd8; /* Cambia el color cuando el mouse pasa sobre la barra */
+  }
+
+  
 }
 
 /* adaptación para dispositivos de pantallas en laptos y pantallas de mayor pixelaje*/
