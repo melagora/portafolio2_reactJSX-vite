@@ -66,8 +66,9 @@ function Home() {
               </div>
               <div className="container2_text4">
                 <p>
-                  | Front-end developer React & JavaScript | Web Developer |
+                  | Front-end developer React & JavaScript 
                 </p>
+                <p>| Web Developer |</p>
               </div>
             </div>
           </div>

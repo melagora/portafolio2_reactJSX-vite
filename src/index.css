@@ -19,3 +19,32 @@
 a{
   text-decoration: inherit;
 }
+
+/* adaptación para dispositivos de pantallas súper pequeñas (casi obsoletos) */
+@media only screen and (min-width: 320px) {
+
+}
+
+/* adaptación para dispositivos de pantallas de la mayoria de telefonos Celulares */
+@media only screen and (min-width: 400px) {
+
+}
+
+/* adaptación para dispositivos de pantallas de algunos celulares de mayor pixelaje y tablets*/
+@media only screen and (min-width: 600px) {
+  :root {
+    margin-top: 60px;
+  }
+  
+}
+
+/* adaptación para dispositivos de pantallas en tables y algunas laptops*/
+@media only screen and (min-width: 992px) {
+
+}
+
+/* adaptación para dispositivos de pantallas en laptos y pantallas de mayor pixelaje*/
+@media only screen and (min-width: 1200px) {
+
+}
+

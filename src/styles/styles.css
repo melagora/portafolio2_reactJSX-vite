@@ -80,7 +80,6 @@
   width: 250px;
 }
 
-
 .container1_redes div {
   display: flex;
   align-items: center;
@@ -201,16 +200,19 @@
 
 .contentSkillsUno,
 .contentSkillsDos {
-  width: 100%;
+  width: 85%;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  height: 300px;
+  height: 250px;
   align-items: center;
   text-align: center;
   margin: 20px;
-  padding: 20px;
   /* background-color: #08fdd8; */
+}
+
+.contentSkillsUno {
+  margin-top: 80px;
 }
 
 .contentSkillsBasicPlus,
@@ -360,3 +362,75 @@
 }
 
 /* FON ROUTE CONTACT*/
+
+/* adaptación para dispositivos de pantallas súper pequeñas (casi obsoletos) */
+@media only screen and (min-width: 320px) {
+  .content2 {
+    margin-top: 30px;
+  }
+}
+
+/* adaptación para dispositivos de pantallas de la mayoria de telefonos Celulares */
+@media only screen and (min-width: 400px) {
+  .content2 {
+    margin-top: 30px;
+  }
+
+  .container2_text4 {
+    margin: 10px;
+  }
+
+  .content2_aboutme_img img {
+    width: 235px;
+  }
+
+  .contentSkillsUno,
+  .contentSkillsDos {
+    width: 90%;
+  }
+
+  .contentSkillsUno {
+    padding-top: 50px;
+  }
+}
+
+/* adaptación para dispositivos de pantallas de algunos celulares de mayor pixelaje y tablets*/
+@media only screen and (min-width: 600px) {
+  .content2 {
+    margin-top: 10px;
+  }
+
+  .container2_text1 {
+    font-size: 140px;
+  }
+
+  .container2_text2 {
+    font-size: 29.5px;
+  }
+
+  .container2_text3 {
+    font-size: 31.5px;
+  }
+
+  .container2_text4 {
+    font-size: 15px;
+  }
+
+  .content2_aboutme_img img {
+    padding-top: 20px;
+    width: 300px;
+  }
+
+  .contentEducation1 div,
+.contentEducation2 div {
+  width: 350px;
+}
+}
+
+/* adaptación para dispositivos de pantallas en tables y algunas laptops*/
+@media only screen and (min-width: 992px) {
+}
+
+/* adaptación para dispositivos de pantallas en laptos y pantallas de mayor pixelaje*/
+@media only screen and (min-width: 1200px) {
+}
