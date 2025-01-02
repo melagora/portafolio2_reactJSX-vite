@@ -1,6 +1,7 @@
 import React from "react";
 import "@/styles/styles.css";
 
+
 // const educationSuperior = ["Ingeniería de Sistemas Informáticos", "text 2"];
 // const descriptionEducationSuperior = ["Descripción1", "Descripción2"];
 
