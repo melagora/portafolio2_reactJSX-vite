@@ -51,7 +51,7 @@ export default function () {
                 <img
                   className="card_image"
                   src={proyeject5}
-                  alt=""
+                  alt="SPA con ReactJs de musica"
                 />
               </a>
             </div>
@@ -85,7 +85,7 @@ export default function () {
                 <img
                   className="card_image"
                   src={proyeject2}
-                  alt=""
+                  alt="Práctica WEB de hamburguesas solo HTML y CSS"
                 />
               </a>
             </div>
@@ -107,7 +107,7 @@ export default function () {
                 <img
                   className="card_image"
                   src={proyeject4}
-                  alt=""
+                  alt="Manejo de inventarios con react y firebase"
                 />
               </a>
             </div>
