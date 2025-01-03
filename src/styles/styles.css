@@ -349,8 +349,6 @@
   flex-direction: column;
   border: solid #00947e 2px;
   background-color: #00947e;
-  width: 275px;
-  height: 350px;
   border-radius: 20px;
   box-shadow: 5px 5px 5px 2px #ffffff;
 }
@@ -435,11 +433,6 @@
     width: 135px;
   }
 
-  .cards {
-    width: 100%;
-    height: 380px;
-  }
-
 }
 
 /* adaptación para dispositivos de pantallas de la mayoria de telefonos Celulares */
@@ -466,6 +459,10 @@
     padding-top: 0px;
   }
 
+  .cards {
+    width: 100%;
+    height: 380px;
+  }
   
 }
 
@@ -505,6 +502,7 @@
     width: 275px;
     height: 350px;
   }
+
 
 }
 
