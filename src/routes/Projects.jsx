@@ -1,5 +1,9 @@
 import React from "react";
 import "@/styles/styles.css";
+import proyeject3 from "@/assets/projects/project3.png";
+import proyeject5 from "@/assets/projects/project5.png";
+import proyeject2 from "@/assets/projects/project2.png";
+import proyeject4 from "@/assets/projects/project4.png";
 
 export default function () {
   return (
@@ -15,7 +19,7 @@ export default function () {
               >
                 <img
                   className="card_image"
-                  src="/src/assets/projects/project3.png"
+                  src={proyeject3}
                   alt="Proyecto APP Financiera"
                 />
               </a>
@@ -46,7 +50,7 @@ export default function () {
               <a href="https://landingpagebootstrap-melvin-act4-kodi.netlify.app/">
                 <img
                   className="card_image"
-                  src="/src/assets/projects/project5.png"
+                  src={proyeject5}
                   alt=""
                 />
               </a>
@@ -80,7 +84,7 @@ export default function () {
               <a href="https://practicahamburguesa-bootcampkodigo.netlify.app/">
                 <img
                   className="card_image"
-                  src="/src/assets/projects/project2.png"
+                  src={proyeject2}
                   alt=""
                 />
               </a>
@@ -102,7 +106,7 @@ export default function () {
               <a href="https://mini-manejo-de-inventario-con-firebase-autenticacion.vercel.app/">
                 <img
                   className="card_image"
-                  src="/src/assets/projects/project4.png"
+                  src={proyeject4}
                   alt=""
                 />
               </a>
