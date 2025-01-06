@@ -433,6 +433,9 @@
     width: 135px;
   }
 
+  .content_aboutme {
+    padding-bottom: 50px;
+  }
 }
 
 /* adaptación para dispositivos de pantallas de la mayoria de telefonos Celulares */
