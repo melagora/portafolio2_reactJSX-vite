@@ -16,26 +16,32 @@ export default function Skills() {
       <div className="contentSkills">
         <div className="contentSkillsUno">
           <div>
-            <p><mark>Tecnologías de conocimiento básico - intermedio</mark></p>
+            <p style={{ lineHeight: '2' }}>
+              <div style={{ fontSize: '1.2rem', backgroundColor: 'yellow', color: 'black', fontWeight: 'bold', padding: '10px' }}>
+                Tecnologías de conocimiento básico/intermedio
+              </div>
+            </p>
           </div>
           <div className="contentSkillsBasicPlus">
             {skillsBasicPlus.map((skill, index) => (
               <div key={index} style={{ backgroundColor: colorsBasicPlus[index % colorsBasicPlus.length] }}>
-                <p>{skill}</p>
+                <p style={{ lineHeight: '1.2' }}>{skill}</p>
               </div>
             ))}
           </div>
         </div>
         <div className="contentSkillsDos">
           <div>
-            <p><mark>
-              Tecnologías de conocimiento básico o que he probado alguna vez
-              </mark></p>
+            <p style={{ lineHeight: '2' }}>
+              <div style={{ fontSize: '1.2rem', backgroundColor: 'yellow', color: 'black', fontWeight: 'bold', padding: '10px' }}>
+                Tecnologías de conocimiento básico o que he probado alguna vez
+              </div>
+            </p>
           </div>
           <div className="contentSkillsBasic">
             {skillsBasic.map((skill, index) => (
               <div key={index} style={{ backgroundColor: colorsBasic[index % colorsBasic.length] }}>
-                <p>{skill}</p>
+                <p style={{ lineHeight: '1.2' }}>{skill}</p>
               </div>
             ))}
           </div>

@@ -200,19 +200,15 @@
 
 .contentSkillsUno,
 .contentSkillsDos {
-  width: 85%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  height: 250px;
   align-items: center;
   text-align: center;
-  margin: 20px;
+  margin: 40px;
+  margin-bottom: 100px;
   /* background-color: #08fdd8; */
-}
-
-.contentSkillsUno {
-  margin-top: 80px;
 }
 
 .contentSkillsBasicPlus,
@@ -225,7 +221,7 @@
 .contentSkillsBasicPlus div,
 .contentSkillsBasic div {
   margin: 5px;
-  padding: 10px;
+  padding: 15px;
   border-radius: 20px;
   width: auto;
   height: auto;
@@ -436,6 +432,11 @@
   .content_aboutme {
     padding-bottom: 50px;
   }
+
+  .contentSkillsUno,
+  .contentSkillsDos {
+    margin: 1px;
+  }
 }
 
 /* adaptación para dispositivos de pantallas de la mayoria de telefonos Celulares */
@@ -454,12 +455,8 @@
 
   .contentSkillsUno,
   .contentSkillsDos {
-    width: 90%;
-    height: 325px;
-  }
-
-  .contentSkillsUno {
-    padding-top: 0px;
+    width: 100%;
+    padding: 50px;
   }
 
   .cards {
@@ -574,15 +571,15 @@
     width: 375px;
   }
 
-  .contentSkillsUno {
-    padding-top: 20px;
+  .contentSkills{
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
   }
-
   .contentSkillsUno,
   .contentSkillsDos {
-    width: 80%;
-    height: 200px;
-    margin: 20px;
+    width: 90%;
+    padding: 50px;
   }
 
   .contentEducation {
