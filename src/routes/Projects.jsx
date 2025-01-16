@@ -135,6 +135,40 @@ export default function () {
               </div>
             </div>
           </div>
+          <div className="cards">
+            <div className="card_top">
+              <a href="https://mini-manejo-de-inventario-con-firebase-autenticacion.vercel.app/">
+                <img
+                  className="card_image"
+                  src={proyeject4}
+                  alt="Manejo de inventarios con react y firebase"
+                />
+              </a>
+            </div>
+            <div className="text_card">
+              <p>
+                Manejo de inventario con firebase como DB y con adimintración de
+                autenticación de usuarios.
+              </p>
+            </div>
+            <div className="card_bottom">
+              <div className="etiquetaGeneral">
+                <p>React</p>
+              </div>
+              <div className="etiquetaGeneral">
+                <p>HTML</p>
+              </div>
+              <div className="etiquetaGeneral">
+                <p>CSS</p>
+              </div>
+              <div className="etiquetaGeneral">
+                <p>Firebase</p>
+              </div>
+              <div className="etiquetaGeneral">
+                <p>React-Router</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
