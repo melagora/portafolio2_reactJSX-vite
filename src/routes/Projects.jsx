@@ -4,6 +4,8 @@ import proyeject3 from "@/assets/projects/project3.png";
 import proyeject5 from "@/assets/projects/project5.png";
 import proyeject2 from "@/assets/projects/project2.png";
 import proyeject4 from "@/assets/projects/project4.png";
+import proyeject6 from "@/assets/projects/project6.png";
+
 
 export default function () {
   return (
@@ -31,23 +33,24 @@ export default function () {
               </p>
             </div>
             <div className="card_bottom">
-              <div className="etiquetaGeneral etiquetaReact">
+              <div className="etiquetaGeneral">
                 <p>React</p>
               </div>
-              <div className="etiquetaGeneral etiquetaHtml">
+              <div className="etiquetaGeneral">
                 <p>HTML</p>
               </div>
-              <div className="etiquetaGeneral etiquetaCss">
+              <div className="etiquetaGeneral">
                 <p>CSS</p>
               </div>
-              <div className="etiquetaGeneral etiquetaJs">
+              <div className="etiquetaGeneral">
                 <p>JavaScript</p>
               </div>
             </div>
           </div>
           <div className="cards">
             <div className="card_top">
-              <a href="https://landingpagebootstrap-melvin-act4-kodi.netlify.app/">
+              <a href="https://landingpagebootstrap-melvin-act4-kodi.netlify.app/" target="_blank"
+                rel="noreferrer">
                 <img
                   className="card_image"
                   src={proyeject5}
@@ -62,26 +65,27 @@ export default function () {
               </p>
             </div>
             <div className="card_bottom">
-              <div className="etiquetaGeneral etiquetaReact">
+              <div className="etiquetaGeneral">
                 <p>React</p>
               </div>
-              <div className="etiquetaGeneral etiquetaHtml">
+              <div className="etiquetaGeneral">
                 <p>HTML</p>
               </div>
-              <div className="etiquetaGeneral etiquetaCss">
+              <div className="etiquetaGeneral">
                 <p>CSS</p>
               </div>
-              <div className="etiquetaGeneral etiquetaJs">
+              <div className="etiquetaGeneral">
                 <p>JavaScript</p>
               </div>
-              <div className="etiquetaGeneral etiquetaReactRouter">
+              <div className="etiquetaGeneral">
                 <p>React-Router</p>
               </div>
             </div>
           </div>
           <div className="cards">
             <div className="card_top">
-              <a href="https://practicahamburguesa-bootcampkodigo.netlify.app/">
+              <a href="https://practicahamburguesa-bootcampkodigo.netlify.app/" target="_blank"
+                rel="noreferrer">
                 <img
                   className="card_image"
                   src={proyeject2}
@@ -93,17 +97,18 @@ export default function () {
               <p>Práctica WEB estática solo HTML y CSS + la implementación de despliegue del sitio.</p>
             </div>
             <div className="card_bottom">
-            <div className="etiquetaGeneral etiquetaHtml">
+            <div className="etiquetaGeneral">
                 <p>HTML</p>
               </div>
-              <div className="etiquetaGeneral etiquetaCss">
+              <div className="etiquetaGeneral">
                 <p>CSS</p>
               </div>
             </div>
           </div>
           <div className="cards">
             <div className="card_top">
-              <a href="https://mini-manejo-de-inventario-con-firebase-autenticacion.vercel.app/">
+              <a href="https://mini-manejo-de-inventario-con-firebase-autenticacion.vercel.app/" target="_blank"
+                rel="noreferrer"> 
                 <img
                   className="card_image"
                   src={proyeject4}
@@ -137,23 +142,23 @@ export default function () {
           </div>
           <div className="cards">
             <div className="card_top">
-              <a href="https://mini-manejo-de-inventario-con-firebase-autenticacion.vercel.app/">
+              <a href="https://github.com/melagora/AlojamientosCRUD-Bosque/tree/main?tab=readme-ov-file" target="_blank"
+                rel="noreferrer">
                 <img
                   className="card_image"
-                  src={proyeject4}
+                  src={proyeject6}
                   alt="Manejo de inventarios con react y firebase"
                 />
               </a>
             </div>
             <div className="text_card">
               <p>
-                Manejo de inventario con firebase como DB y con adimintración de
-                autenticación de usuarios.
+              CRUD de Alojamientos | Plataforma web para gestionar alojamientos.
               </p>
             </div>
             <div className="card_bottom">
               <div className="etiquetaGeneral">
-                <p>React</p>
+                <p>PHP</p>
               </div>
               <div className="etiquetaGeneral">
                 <p>HTML</p>
@@ -162,10 +167,10 @@ export default function () {
                 <p>CSS</p>
               </div>
               <div className="etiquetaGeneral">
-                <p>Firebase</p>
+                <p>MySQL</p>
               </div>
               <div className="etiquetaGeneral">
-                <p>React-Router</p>
+                <p>CRUD PHP</p>
               </div>
             </div>
           </div>
