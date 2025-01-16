@@ -1,5 +1,6 @@
 import React from "react";
 import "@/styles/styles.css";
+import proyeject1 from "@/assets/projects/project1.png";
 import proyeject3 from "@/assets/projects/project3.png";
 import proyeject5 from "@/assets/projects/project5.png";
 import proyeject2 from "@/assets/projects/project2.png";
@@ -49,7 +50,7 @@ export default function () {
           </div>
           <div className="cards">
             <div className="card_top">
-              <a href="https://landingpagebootstrap-melvin-act4-kodi.netlify.app/" target="_blank"
+              <a href="https://kodimusic-clon-spot.vercel.app/" target="_blank"
                 rel="noreferrer">
                 <img
                   className="card_image"
@@ -79,6 +80,37 @@ export default function () {
               </div>
               <div className="etiquetaGeneral">
                 <p>React-Router</p>
+              </div>
+            </div>
+          </div>
+          <div className="cards">
+            <div className="card_top">
+              <a href="https://landingpagebootstrap-melvin-act4-kodi.netlify.app/" target="_blank"
+                rel="noreferrer">
+                <img
+                  className="card_image"
+                  src={proyeject1}
+                  alt="SPA con ReactJs de musica"
+                />
+              </a>
+            </div>
+            <div className="text_card">
+              <p>
+              LandingPage static con BootStrap y página de estilos CSS
+              </p>
+            </div>
+            <div className="card_bottom">
+              <div className="etiquetaGeneral">
+                <p>Despliegue</p>
+              </div>
+              <div className="etiquetaGeneral">
+                <p>HTML</p>
+              </div>
+              <div className="etiquetaGeneral">
+                <p>CSS</p>
+              </div>
+              <div className="etiquetaGeneral">
+                <p>Bootstrap</p>
               </div>
             </div>
           </div>
