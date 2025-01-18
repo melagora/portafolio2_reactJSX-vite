@@ -32,11 +32,23 @@ export default function Contact() {
           <p className="subtittleContact"> Redes Sociales:</p>
           <div className="redesContacto">
             <button className="buttonContact">
+            <a
+              href="https://www.instagram.com/melagora/?hl=es"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Instagram
+            </a>
               <i style={pad} className="bi bi-instagram"></i>
             </button>
             <button className="buttonContact">
+            <a
+              href="https://www.facebook.com/melagora10"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Facebook
+            </a>
               <i style={pad} className="bi bi-facebook"></i>
             </button>
           </div>
