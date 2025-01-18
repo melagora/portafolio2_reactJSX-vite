@@ -349,10 +349,9 @@
   box-shadow: 5px 5px 5px 2px #ffffff;
 }
 
-.cards:hover{
+.cards:hover {
   border: solid #ffffff 3px;
   box-shadow: 5px 5px 5px 2px #00947e;
-
 }
 
 .card_top {
@@ -363,12 +362,13 @@
   border-radius: 18px 18px 0 0; /* Top corners rounded, bottom corners not */
 }
 
-.text_card{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.text_card {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
   padding: 10px;
   height: 18%;
-  font-weight: bold}
+  font-weight: bold;
+}
 
 .card_bottom {
   display: flex;
@@ -381,7 +381,7 @@
   border-radius: 10px;
 }
 
-.etiquetaGeneral{
+.etiquetaGeneral {
   background-color: #363636;
   display: flex;
   padding: 5px;
@@ -397,7 +397,6 @@
   object-fit: fill; /* Cambia a 'fill' para estirar la imagen verticalmente */
 }
 
-
 /* FIN ROUTE PROJECTS*/
 
 /* INICIO ROUTE CONTACT*/
@@ -408,13 +407,49 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-  background-color: #ff0000;
 }
 
-.contentContact a {
-  color: black;
-  text-decoration: underline;
-  font-size: 20px;
+.contentContact section {
+  box-shadow: 0px 8px 16px 2px rgba(255, 255, 255, 0.2);
+  background-color: #000000;
+  border: solid white 2px;
+  border-radius: 20px;
+  margin: 15px;
+  width: 100%;
+  padding: 10px;
+}
+
+.contentContact section div {
+  padding: 10px;
+}
+
+.subtittleContact {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.redesContacto {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.buttonContact {
+  padding: 15px;
+  border-radius: 10px;
+  border: solid white 2px;
+  margin: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.buttonContact a{
+  color: white;
+}
+
+.buttonContact:hover {
+  background-color: #00947e;
+  scale: 1.05;
 }
 
 /* FON ROUTE CONTACT*/
@@ -463,7 +498,6 @@
     width: 100%;
     height: 380px;
   }
-  
 }
 
 /* adaptación para dispositivos de pantallas de algunos celulares de mayor pixelaje y tablets*/
@@ -500,7 +534,7 @@
 
   .contentProjects {
     width: 100%;
-    height: 100%;/* Asegura que el contenido no exceda el contenedor */
+    height: 100%; /* Asegura que el contenido no exceda el contenedor */
   }
 
   .container {
@@ -512,14 +546,10 @@
     width: 275px;
     height: 350px;
   }
-
-
 }
 
 /* adaptación para dispositivos de pantallas en tables y algunas laptops*/
 @media only screen and (min-width: 992px) {
-
-
   .content {
     flex-direction: row;
   }
@@ -579,7 +609,7 @@
     width: 375px;
   }
 
-  .contentSkills{
+  .contentSkills {
     flex-direction: row;
     align-items: flex-start;
     width: 100%;
@@ -632,7 +662,6 @@
   .contentEducation2::-webkit-scrollbar-thumb:hover {
     background-color: #08fdd8; /* Cambia el color cuando el mouse pasa sobre la barra */
   }
-  
 }
 
 /* adaptación para dispositivos de pantallas en laptos y pantallas de mayor pixelaje*/
