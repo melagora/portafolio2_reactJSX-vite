@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 .general_section {
   background-color: rgba(0, 0, 0, 0.508);
   border-radius: 10px;
@@ -242,21 +244,10 @@
   display: flex;
   flex-direction: column;
   margin: 20px;
+  gap: 20px;
 }
 
-.contentEducation1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.contentEducation1 div {
-  margin: 15px;
-}
-
-.contentEducation1 div,
-.contentEducation2 div {
+.contentEducation div{
   background-color: #00947e;
   width: 300px;
   min-height: 75px;
@@ -268,57 +259,23 @@
   text-align: center;
 }
 
-.contentEducation1 div:hover,
-.contentEducation2 div:hover {
+
+.contentEducation div:hover {
   background-color: #363636;
   scale: 1.02;
 }
 
-.contentEducation1 div h2,
-.contentEducation2 div h2 {
+.contentEducation div h2 {
   font-size: 15px;
 }
 
-.contentEducation1 div h5,
-.contentEducation2 div h5 {
+.contentEducation div h5{
   font-size: 13px;
   font-style: italic;
 }
 
-.contentEducation1 div p,
-.contentEducation2 div p {
+.contentEducation div p{
   font-size: 13px;
-}
-
-.contentEducation2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-  /* overflow-y: auto; */
-}
-
-/* Ancho de la barra de desplazamiento */
-.contentEducation2::-webkit-scrollbar {
-  width: 15px; /* Cambia el ancho según lo necesites */
-}
-
-/* Color de la pista (fondo de la barra) */
-.contentEducation2::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Color del fondo */
-  border-radius: 10px; /* Bordes redondeados */
-}
-
-/* Color y estilo de la barra de desplazamiento */
-.contentEducation2::-webkit-scrollbar-thumb {
-  background-color: #00947e; /* Color de la barra */
-  border-radius: 10px; /* Bordes redondeados */
-  border: 2px solid #f1f1f1; /* Espacio alrededor de la barra */
-}
-
-/* Color de la barra al hacer hover */
-.contentEducation2::-webkit-scrollbar-thumb:hover {
-  background-color: #08fdd8; /* Cambia el color cuando el mouse pasa sobre la barra */
 }
 
 /* FIN ROUTE EDUCATION */
@@ -626,48 +583,6 @@
     padding: 50px;
   }
 
-  .contentEducation {
-    flex-direction: row;
-    align-items: flex-start;
-    width: 100%;
-  }
-
-  .contentEducation1 {
-    width: 50%;
-  }
-
-  .contentEducation2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    overflow-y: auto;
-    width: 400px;
-    height: 76vh;
-  }
-
-  /* Ancho de la barra de desplazamiento */
-  .contentEducation2::-webkit-scrollbar {
-    width: 15px; /* Cambia el ancho según lo necesites */
-  }
-
-  /* Color de la pista (fondo de la barra) */
-  .contentEducation2::-webkit-scrollbar-track {
-    background: #f1f1f1; /* Color del fondo */
-    border-radius: 10px; /* Bordes redondeados */
-  }
-
-  /* Color y estilo de la barra de desplazamiento */
-  .contentEducation2::-webkit-scrollbar-thumb {
-    background-color: #00947e; /* Color de la barra */
-    border-radius: 10px; /* Bordes redondeados */
-    border: 2px solid #f1f1f1; /* Espacio alrededor de la barra */
-  }
-
-  /* Color de la barra al hacer hover */
-  .contentEducation2::-webkit-scrollbar-thumb:hover {
-    background-color: #08fdd8; /* Cambia el color cuando el mouse pasa sobre la barra */
-  }
 }
 
 /* adaptación para dispositivos de pantallas en laptos y pantallas de mayor pixelaje*/
