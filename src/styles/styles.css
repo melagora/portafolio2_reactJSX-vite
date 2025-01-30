@@ -50,6 +50,9 @@
   /* width: 50%; */
 }
 
+.content2 {
+  padding-left: 0px;
+}
 .content1 .container1_img {
   width: 250px;
   height: 325px;
@@ -147,6 +150,29 @@
   font-size: 14px;
   font-weight: 900;
   text-decoration: overline;
+}
+.container2_CV{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.container2_CV button{
+  padding: 15px;
+  border-radius: 10px;
+  border: solid white 4px;
+  width: 80%;
+  margin: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border-color: #08fdd8;
+  background-color: white;
+  color: black  ;
+  animation: borderAnimation 5s infinite;
+}
+.container2_CV button:hover {
+  scale: 1.05;
 }
 
 /* FIN ROUTE HOME */
@@ -487,6 +513,10 @@
     flex-direction: column;
   }
 
+  .content2 {
+    padding-left: 125px;
+  }
+
   .content1 {
     justify-content: center;
     padding-top: 50px;
@@ -516,6 +546,10 @@
 
   .container2_text4 {
     font-size: 17px;
+  }
+
+  .container2_CV button{
+    width: 60%;
   }
 
   .content_aboutme {
