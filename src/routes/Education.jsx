@@ -4,13 +4,13 @@ import "@/styles/styles.css";
 export default function Education() {
   const [activeIndex, setActiveIndex] = useState(null);
   const [hoveredIndex, setHoveredIndex] = useState(null);
-  const hoverColors = ["#363636", "#836900", "#230094"];
+  const hoverColors = ["#363636", "#836900", "#230094", "#028f00", "#8f0000"];
 
   useEffect(() => {
     if (hoveredIndex !== null) return;
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) =>
-        prevIndex === 7 ? 0 : (prevIndex ?? -1) + 1
+        prevIndex === 9 ? 0 : (prevIndex ?? -1) + 1
       );
     }, 2000);
     return () => clearInterval(interval);
@@ -35,11 +35,14 @@ export default function Education() {
               "Ingeniería de Sistemas Informáticos",
               "FullStack Jr",
               "Técnico Programador Analista en 4° Gen",
-              "Java y Spring Boot",
+              "Formación: Java y Spring Boot",
               "SQL con MySQL",
               "Principiante en Programación G5 - ONE",
+              "Fundamentos en Gestión de Proyectos",
               "Scrum Foundation Professional Certificate SFPC (v2020) Spanish",
               "Curso Profesional de HTML y CSS",
+              "Ciencia de Datos",
+              "Técnico Operador bajo Windows y Office",
             ].map((title, index) => (
               <div
                 key={index}
@@ -61,12 +64,15 @@ export default function Education() {
                     [
                       "Universidad de El Salvador",
                       "Bootcamp KODIGO - El Salvador",
-                      "Presencial - El Salvador",
+                      "Manchester Computer Training - Presencial",
                       "Alura Latam - Online",
                       "Alura Latam - Online",
                       "Alura Latam - Online",
+                      "SoyLider.net",
                       "CertiProf",
                       "Azul Web - Online",
+                      "CONEXIÓN - Online",
+                      "Manchester Computer Training - Presencial",
                     ][index]
                   }
                 </h5>
@@ -79,8 +85,11 @@ export default function Education() {
                       "Octubre de 2023",
                       "Agosto de 2023",
                       "Mayo de 2023",
+                      "Mayo 2023",
                       "Abril de 2023",
                       "Abril de 2023",
+                      "Noviembre de 2021",
+                      "Enero de 2011",
                     ][index]
                   }
                 </p>
