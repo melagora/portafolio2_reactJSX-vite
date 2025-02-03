@@ -11,18 +11,10 @@ export default function Aboutme() {
           <div>
             {/* <p>Info Corta</p> */}
             <p>
-              Soy desarrollador junior con experiencia en la creación de
-              aplicaciones web utilizando React. Me apasiona aprender y aplicar
-              tecnologías modernas en proyectos reales.
+              Soy un desarrollador fullstack junior con experiencia en la creación de aplicaciones web, trabajando tanto en el <b><i>frontend con React</i></b> como en el <b><i>backend con PHP y Laravel</i></b> para desarrollar <mark>APIs CRUD.</mark>
             </p>
             <p>
-              He trabajado en varios proyectos donde he implementado
-              <b>
-                <i> React Routes, React Hooks y React Forms</i>
-              </b>
-              , desarrollando componentes reutilizables y estilizados con CSS
-              puro para mantener{" "}
-              <mark>interfaces consistentes y atractivas.</mark>
+            He implementado soluciones utilizando React Routes, React Hooks y React Forms, desarrollando componentes reutilizables y estilizados con CSS puro, Bootstrap y Tailwind para <mark> mantener interfaces atractivas y funcionales. </mark>
             </p>
             <p>
               Estoy en búsqueda de oportunidades para colaborar en equipos
