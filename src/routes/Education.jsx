@@ -46,10 +46,9 @@ export default function Education() {
             ].map((title, index) => (
               <div
                 key={index}
-                className={`bg-[#00947e] w-[375px] min-h-[100px] border-4 border-white rounded-2xl flex flex-col items-center justify-center text-center p-3 m-2 transition-all ${
-                  activeIndex === index ? "scale-105" : "hover:scale-105"
-                }`}
+                className={`bg-[#00947e] w-[375px] min-h-[100px] border-4 border-white rounded-2xl flex flex-col items-center justify-center text-center p-3 m-2 transition-all`}
                 style={{
+                  transform: activeIndex === index ? "scale(1.05)" : hoveredIndex === index ? "scale(1.05)" : "scale(1)",
                   backgroundColor:
                     activeIndex === index
                       ? hoverColors[index % hoverColors.length]
@@ -76,23 +75,6 @@ export default function Education() {
                     ][index]
                   }
                 </h5>
-                <p className="text-sm">
-                  {
-                    [
-                      "En curso",
-                      "Enero de 2025",
-                      "",
-                      "Octubre de 2023",
-                      "Agosto de 2023",
-                      "Mayo de 2023",
-                      "Mayo 2023",
-                      "Abril de 2023",
-                      "Abril de 2023",
-                      "Noviembre de 2021",
-                      "Enero de 2011",
-                    ][index]
-                  }
-                </p>
               </div>
             ))}
           </section>
