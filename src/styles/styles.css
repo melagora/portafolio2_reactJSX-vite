@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 .general_section {
   background-color: rgba(0, 0, 0, 0.508);
   border-radius: 10px;
@@ -221,7 +222,7 @@
 
 /* INICIO ROUTE SKILLS*/
 
-.contentSkills {
+/* .contentSkills {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -237,7 +238,6 @@
   text-align: center;
   margin: 40px;
   margin-bottom: 100px;
-  /* background-color: #08fdd8; */
 }
 
 .contentSkillsBasicPlus,
@@ -262,7 +262,7 @@
 .contentSkillsBasic div:hover {
   scale: 1.05;
   box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
-}
+} */
 
 /* INICIO ROUTE EDUCATION */
 
@@ -442,11 +442,11 @@
     width: 235px;
   }
 
-  .contentSkillsUno,
+  /* .contentSkillsUno,
   .contentSkillsDos {
     width: 100%;
     padding: 50px;
-  }
+  } */
 
   .cards {
     width: 100%;
@@ -571,7 +571,7 @@
     width: 375px;
   }
 
-  .contentSkills {
+  /* .contentSkills {
     flex-direction: row;
     align-items: flex-start;
     width: 100%;
@@ -580,7 +580,12 @@
   .contentSkillsDos {
     width: 90%;
     padding: 50px;
-  }
+  } */
+
+  /* .contentContact{
+    flex-direction: row;
+    flex-wrap: wrap;
+  } */
 
 }
 

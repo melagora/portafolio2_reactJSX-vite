@@ -6,9 +6,9 @@ export default function Contact() {
 
   return (
     <div className="general_section">
-      <div className="contentContact">
-        <h1>- Contacto -</h1>
-        <section>
+      <div className="contentContact lg:flex lg:flex-wrap lg:justify-between">
+        <h1 className="w-full text-center">- Contacto -</h1>
+        <section className="lg:w-1/2">
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"
@@ -28,32 +28,32 @@ export default function Contact() {
             </button>
           </div>
         </section>
-        <section>
+        <section className="lg:w-1/2">
           <p className="subtittleContact"> Redes Sociales:</p>
           <div className="redesContacto">
             <button className="buttonContact">
-            <a
-              href="https://www.instagram.com/melagora/?hl=es"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Instagram
-            </a>
+              <a
+                href="https://www.instagram.com/melagora/?hl=es"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Instagram
+              </a>
               <i style={pad} className="bi bi-instagram"></i>
             </button>
             <button className="buttonContact">
-            <a
-              href="https://www.facebook.com/melagora10"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Facebook
-            </a>
+              <a
+                href="https://www.facebook.com/melagora10"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Facebook
+              </a>
               <i style={pad} className="bi bi-facebook"></i>
             </button>
           </div>
         </section>
-        <section>
+        <section className="lg:w-1/2">
           <p className="subtittleContact">Linkedln:</p>
           <button className="buttonContact">
             <a
@@ -66,7 +66,7 @@ export default function Contact() {
             <i style={pad} className="bi bi-linkedin"></i>
           </button>
         </section>
-        <section>
+        <section className="lg:w-1/2">
           <p className="subtittleContact">GitHub:</p>
           <button className="buttonContact">
             <a
@@ -79,8 +79,8 @@ export default function Contact() {
             <i style={pad} className="bi bi-github"></i>
           </button>
         </section>
-        <h1 style={{ paddingTop: "20px" }}>- Más Info -</h1>
-        <section>
+        <h1 className="w-full text-center" style={{ paddingTop: "20px" }}>- Más Info -</h1>
+        <section className="lg:w-1/2">
           <p className="subtittleContact">Alura Latam + Oracle:</p>
           <button className="buttonContact">
             <a
@@ -88,12 +88,12 @@ export default function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-               Ver certificados de finalización:
+              Ver certificados de finalización:
             </a>
-            <i style={pad} class="fa-solid fa-user-graduate"></i>
+            <i style={pad} className="fa-solid fa-user-graduate"></i>
           </button>
         </section>
-        <section>
+        <section className="lg:w-1/2">
           <p className="subtittleContact">Microsoft Learns:</p>
           <button className="buttonContact">
             <a
@@ -103,7 +103,7 @@ export default function Contact() {
             >
               Ver módulos completados de:
             </a>
-            <i style={pad} class="fa-brands fa-windows"></i>
+            <i style={pad} className="fa-brands fa-windows"></i>
           </button>
         </section>
       </div>
